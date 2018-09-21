@@ -57,4 +57,6 @@ class Owner
     end
     pets = { }
   end
+
+  binding.pry
 end
