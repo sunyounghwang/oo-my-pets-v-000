@@ -61,5 +61,6 @@ class Owner
   end
 
   def list_pets
+    puts pets.values
   end
 end
