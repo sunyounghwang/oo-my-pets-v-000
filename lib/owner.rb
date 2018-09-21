@@ -53,12 +53,13 @@ class Owner
 
   def sell_pets
     pets.each do |type, pets|
+      binding.pry
+
       pets.each do |pet|
         pet.mood = "nervous"
         pets.delete(pet)
       end
     end
-    binding.pry
     #pets = { fishes: [], cats: [], dogs: [] }
   end
 end
