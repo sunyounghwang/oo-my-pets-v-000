@@ -15,11 +15,9 @@ class Owner
     ALL.clear
   end
 
-  def initialize(name)
-    @name = name
+  def initialize(species)
+    @species = species
     @pets = { fishes: [], cats: [], dogs: [] }
     ALL << self
   end
-
-  def species
 end
