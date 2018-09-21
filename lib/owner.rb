@@ -20,4 +20,8 @@ class Owner
     @pets = { fishes: [], cats: [], dogs: [] }
     ALL << self
   end
+
+  def say_species
+    "I am a #{species}."
+  end
 end
