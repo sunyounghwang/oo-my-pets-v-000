@@ -58,8 +58,5 @@ class Owner
       end
     end
     pets = { fishes: [], cats: [], dogs: [] }
-    binding.pry
-
   end
-
 end
