@@ -3,6 +3,7 @@ class Owner
   attr_accessor :pets
 
   def self.all
+    ALL
   end
 
   def initialize
