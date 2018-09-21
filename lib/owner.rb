@@ -55,6 +55,7 @@ class Owner
     pets.each do |type, pets|
       pets.each do |pet|
         pet.mood = "nervous"
+        pets.delete(pet)
       end
     end
     pets = { fishes: [], cats: [], dogs: [] }
