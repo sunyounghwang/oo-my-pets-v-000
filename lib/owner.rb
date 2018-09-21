@@ -55,5 +55,6 @@ class Owner
         pet.mood = "nervous"
       end
     end
+    pets = {}
   end
 end
