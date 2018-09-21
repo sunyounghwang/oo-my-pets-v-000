@@ -55,9 +55,8 @@ class Owner
     pets.each do |type, pets|
       pets.each do |pet|
         pet.mood = "nervous"
-        pets.delete(pet)
-        binding.pry
       end
+      pets[type] = []
     end
     #pets = { fishes: [], cats: [], dogs: [] }
   end
