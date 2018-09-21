@@ -58,6 +58,7 @@ class Owner
         pets.delete(pet)
       end
     end
+    binding.pry
     #pets = { fishes: [], cats: [], dogs: [] }
   end
 end
