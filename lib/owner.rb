@@ -58,6 +58,6 @@ class Owner
         pets.delete(pet)
       end
     end
-    pets = { fishes: [], cats: [], dogs: [] }
+    #pets = { fishes: [], cats: [], dogs: [] }
   end
 end
