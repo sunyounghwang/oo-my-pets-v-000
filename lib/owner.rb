@@ -7,6 +7,10 @@ class Owner
     ALL
   end
 
+  def reset_all
+    ALL.clear
+  end
+
   def initialize(name)
     @name = name
     @pets = { fishes: [], cats: [], dogs: [] }
