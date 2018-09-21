@@ -58,6 +58,5 @@ class Owner
       end
       pets[type] = []
     end
-    #pets = { fishes: [], cats: [], dogs: [] }
   end
 end
