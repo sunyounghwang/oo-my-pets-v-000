@@ -7,6 +7,10 @@ class Owner
     ALL
   end
 
+  def self.count
+    ALL.size
+  end
+
   def self.reset_all
     ALL.clear
   end
