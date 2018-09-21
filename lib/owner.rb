@@ -6,7 +6,7 @@ class Owner
     ALL
   end
 
-  def initialize
+  def initialize(name)
     @pets = { fishes: [], cats: [], dogs: [] }
   end
 end
