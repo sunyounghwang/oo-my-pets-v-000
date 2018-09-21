@@ -1,6 +1,7 @@
 class Owner
   ALL = []
   attr_accessor :pets
+  attr_reader :name
 
   def self.all
     ALL
