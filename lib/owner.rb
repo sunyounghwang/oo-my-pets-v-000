@@ -57,7 +57,7 @@ class Owner
         pet.mood = "nervous"
       end
     end
-    pets = { }
+    pets = { fishes: [], cats: [], dogs: [] }
     binding.pry
 
   end
